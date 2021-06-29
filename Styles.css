@@ -51,7 +51,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
     
 }
 
@@ -108,7 +108,7 @@ hr {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .links {
@@ -119,12 +119,20 @@ hr {
     padding-inline-start: 0px;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: xx-large;
+}
 .center-txt {
     border: 2px solid var(--dark-gray);
     color: var(--dark-gray);
     text-align: center;
     border-radius: 0.5rem;
-    padding: 1rem 0.5rem;
+    width: fit-content;
+    margin: auto;
+    padding: 2rem 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -132,7 +140,11 @@ hr {
     text-align: center;
     background-color: var(--primary-color);
     color: var(--off-white);
-    padding:2rem;
+    padding:2rem ;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+.Name-color {
+    color: var(--primary-color);
 }
