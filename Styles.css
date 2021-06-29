@@ -7,6 +7,7 @@
 }
 body{
     font-family:'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -102,3 +103,36 @@ hr {
     background-color: var(--off-white);
 }
 
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .links {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.center-txt {
+    border: 3px solid var(--dark-gray);
+    color: var(--dark-gray);
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem 0.5rem;
+
+}
+
+.Personal-head {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    padding:2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
