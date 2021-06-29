@@ -20,8 +20,14 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.personal-link {
+.link-personal {
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+}
+
+.link-primary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border : 1px solid var(--primary-color)
 }
