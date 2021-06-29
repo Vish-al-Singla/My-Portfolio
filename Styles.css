@@ -120,10 +120,10 @@ hr {
 }
 
 .center-txt {
-    border: 3px solid var(--dark-gray);
+    border: 2px solid var(--dark-gray);
     color: var(--dark-gray);
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 1rem 0.5rem;
 
 }
