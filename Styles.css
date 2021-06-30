@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&display=swap');
 :root {
-    --primary-color:#14B8A6
+    --primary-color:#6366F1
     ;
     --off-white: #D1D5DB;
     --dark-gray: #4B5563;
@@ -60,11 +60,12 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: xx-large;
 }
 
 .navigation  .nav-pills {
     text-align: end;
+    font-size: large;
 }
 .navigation .links {
     color: white;
@@ -80,9 +81,10 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 400px;
     display: block;
     margin: auto;
+    padding: 1.5rem;
 }
 
 .hero .hero-heading {
@@ -108,7 +110,7 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
     text-align: center;
     color: white;
     border-top-right-radius: 2rem;
@@ -116,7 +118,9 @@ hr {
 
 .footer .links {
     color: white;
+    font-size: large;
 }
+
 
 .footer ul {
     padding-inline-start: 0px;
@@ -150,4 +154,24 @@ hr {
 
 .Name-color {
     color: var(--primary-color);
+}
+
+.section .list-item-inline { 
+    border: 1px solid var(--primary-color);
+    padding:0.5rem;
+    
+}
+
+.quote {
+    color: var(--primary-color);
+    padding-top: 3rem;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.albus {
+    margin-left: 1000px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
 }
