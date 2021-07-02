@@ -120,7 +120,6 @@ hr {
 .hero .hero-heading .hero-heading-inverted {
     color: var(--primary-color);
 }
-
 .section {
     padding: 1rem;
 }
@@ -183,10 +182,17 @@ hr {
     color: var(--primary-color);
 }
 
-.section .list-item-inline { 
-    /*border: 1px solid var(--primary-color);*/
+.section .list-item-inline {
+    color: white;
+    border: 2px solid ;
     padding:0.5rem;
-    
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    -webkit-border-radius:0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
 }
 
 .quote {
