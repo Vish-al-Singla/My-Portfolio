@@ -3,6 +3,7 @@
 :root {
     --primary-color:#9d4edd
     ;
+    --secondary-color: #4E276E;
     --off-white: #D1D5DB;
     --dark-gray: #4B5563;
     --matte-black: #28282B;
@@ -204,3 +205,21 @@ hr {
 .icons {
     max-width: 50px;
 }
+
+
+.box {
+    border-radius:10px ;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+  
+  .box:hover {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+  }
