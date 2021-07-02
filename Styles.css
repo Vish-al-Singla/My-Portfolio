@@ -246,7 +246,8 @@ hr {
         -o-transition: background-color 500ms ease-out;
         transition: background-color 500ms ease-out;
     }
-      .bn:hover {
+      .bn:hover 
+      {
         color: black;
         cursor: pointer;
       }
