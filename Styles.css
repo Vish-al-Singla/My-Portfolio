@@ -5,13 +5,28 @@
     ;
     --off-white: #D1D5DB;
     --dark-gray: #4B5563;
+    --matte-black: #28282B;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track
+{   box-shadow: inset 0 0 5px gray;
+    
+}
+::-webkit-scrollbar-thumb
+{
+    background:black;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color) ;
 }
 
 body {
     font-family: 'Martel Sans', sans-serif;
     margin: 0px;
+    
 }
-
 
 hr {
     margin: 2rem 0rem;
@@ -117,7 +132,7 @@ hr {
 }
 
 .footer {
-    background-color: var(--primary-color);
+    background-color:var(--matte-black);
     padding: 1rem 0.5rem;
     text-align: center;
     color: white;
@@ -184,4 +199,8 @@ hr {
 }
 .showcase-list {
     padding: 2rem;
+}
+
+.icons {
+    max-width: 50px;
 }
