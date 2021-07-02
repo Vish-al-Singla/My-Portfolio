@@ -27,7 +27,7 @@ hr {
 
 .links {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 .link-personal {
     background-color: var(--primary-color);
@@ -60,7 +60,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 2rem;
+    text-transform: uppercase;
     
 }
 
@@ -80,6 +80,8 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .hero { 
@@ -119,7 +121,6 @@ hr {
     padding: 1rem 0.5rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 2rem;
 }
 
 .footer .links {
