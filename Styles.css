@@ -9,7 +9,7 @@
     --matte-black: #28282B;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 15px;
 }
 
@@ -25,7 +25,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-color);
 }
-
+*/
 body {
     font-family: 'Martel Sans', sans-serif;
     margin: 0px;
