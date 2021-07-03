@@ -271,7 +271,7 @@ hr {
 }
 
 .hm {
-    max-width: 80px;
+    max-width: 8vw;
     margin: 10px 50px;
     display: flex;
     width: 100%;
