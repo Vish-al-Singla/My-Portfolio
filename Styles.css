@@ -160,7 +160,8 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: 2rem;
-    ;
+    color: var(--primary-color);
+
 }
 
 .center-text {
@@ -263,4 +264,5 @@ hr {
     align-items: center;
     -webkit-box-pack: center;
     justify-content: center;
+    cursor: pointer;
 }
