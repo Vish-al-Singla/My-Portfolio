@@ -266,3 +266,73 @@ hr {
     justify-content: center;
     cursor: pointer;
 }
+
+.max-width-1 {
+    max-width: 60vw;
+}
+
+.df {
+    display: flex;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img {
+    height: 227px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.AL {
+    width: 200px;
+    height: 98px;
+    float: left;
+
+}
+.GNU {
+    width: 120px;
+    height: 117px;
+    float: left;
+    padding-right: 20px;
+}
+
+.Ms {
+    width: 130px;
+    height: 129px;
+    float: left;
+    padding-right: 20px;
+}
+
+.BSD {
+    width: 150px;
+    height: 60px;
+    float: left;
+    padding-right: 20px;
+}
+
+.cddl {
+    width: 200px;
+    height: 89px;
+    float: left;
+    
+
+}
