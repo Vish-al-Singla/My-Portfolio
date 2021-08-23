@@ -4,7 +4,7 @@
 :root {
     --primary-color: #9d4edd;
     --secondary-color: #4E276E;
-    --off-white: #D1D5DB;
+    --off-white: #e9ecef;
     --dark-gray: #4B5563;
     --matte-black: #28282B;
     --off-pc: #F5EDFB;
@@ -44,31 +44,40 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
 .links {
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    box-sizing: border-box;
 }
 
 .link-personal {
     background-color: var(--primary-color);
     color: white;
-    display: block;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 
 .link-primary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
-    display: block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
     max-width: 140px;
     border: 1px solid var(--primary-color);
-    margin: 1rem 1rem 1rem 0rem;
+    margin: 1rem auto;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
 }
 
 .list-non-bullet {
@@ -132,6 +141,11 @@ hr {
 
 .section {
     padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 
 .section h1 {
@@ -167,7 +181,6 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: 1.5rem;
-    color: var(--primary-color);
 }
 
 .center-text {
@@ -204,11 +217,11 @@ hr {
     border: 2px solid;
     padding: 0.5rem;
     background-color: var(--secondary-color);
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
     -webkit-border-radius: 0.5rem;
 }
 
@@ -227,9 +240,18 @@ hr {
 }
 
 .showcase-list {
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
     padding: 2rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
-
+.showcase-list p {
+    padding-bottom: 1rem;
+}
 .icons {
     max-width: 40px;
     display: inline-block;
