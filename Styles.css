@@ -29,7 +29,9 @@
 */
 body {
     font-family: 'Martel Sans', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 
 }
 
@@ -82,14 +84,14 @@ hr {
     height: fit-content;
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
-    text-transform: uppercase;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
 
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: xx-large;
+    font-size: large;
 }
 
 .navigation .nav-pills {
@@ -150,11 +152,11 @@ hr {
     padding: 1rem 0.5rem;
     text-align: center;
     color: white;
+    border-top-right-radius: 1rem;
 }
 
 .footer .links {
     color: white;
-    font-size: large;
 }
 
 
@@ -164,9 +166,8 @@ hr {
 
 .footer .footer-header {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
-
 }
 
 .center-text {
